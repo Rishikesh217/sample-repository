@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_679c600685174013a5c93f36fdd733a5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_679c600685174013a5c93f36fdd733a5" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_679c600685174013a5c93f36fdd733a5 = L.map(
+                                  'map_679c600685174013a5c93f36fdd733a5',
+                                  {center: [40.73061,-73.935242],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a2fd53a123b544cf95687574bd8a8f44 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+        
+    
+            var circle_marker_09b38defb69247c28be94bbbc44f9d52 = L.circleMarker(
+                [40.647490000000005,-73.97237],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_b53d08f9ccd44f88947e771998b60a18 = L.popup({maxWidth: '300'});
+
+            
+                var html_02af0b15d5894210ab6ce8aea7cd12b1 = $('<div id="html_02af0b15d5894210ab6ce8aea7cd12b1" style="width: 100.0%; height: 100.0%;">Clean &amp; quiet apt home by the park (Cluster 1)</div>')[0];
+                popup_b53d08f9ccd44f88947e771998b60a18.setContent(html_02af0b15d5894210ab6ce8aea7cd12b1);
+            
+
+            circle_marker_09b38defb69247c28be94bbbc44f9d52.bindPopup(popup_b53d08f9ccd44f88947e771998b60a18);
+
+            
+        
+    
+            var circle_marker_929060ac0ac54d95838b86f6335897d7 = L.circleMarker(
+                [40.685140000000004,-73.95976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_a767c1ed3ce84f5883d02f38ebfa0dbe = L.popup({maxWidth: '300'});
+
+            
+                var html_e988bf06a57f4305aa0116fb8b840756 = $('<div id="html_e988bf06a57f4305aa0116fb8b840756" style="width: 100.0%; height: 100.0%;">Cozy Entire Floor of Brownstone (Cluster 0)</div>')[0];
+                popup_a767c1ed3ce84f5883d02f38ebfa0dbe.setContent(html_e988bf06a57f4305aa0116fb8b840756);
+            
+
+            circle_marker_929060ac0ac54d95838b86f6335897d7.bindPopup(popup_a767c1ed3ce84f5883d02f38ebfa0dbe);
+
+            
+        
+    
+            var circle_marker_18fdc2b76df342b189fafc589038e439 = L.circleMarker(
+                [40.74767,-73.975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_7e03fbf1217e4e8288090e27702a9feb = L.popup({maxWidth: '300'});
+
+            
+                var html_22302c0a5a6e42cc91adffeaecd4cc56 = $('<div id="html_22302c0a5a6e42cc91adffeaecd4cc56" style="width: 100.0%; height: 100.0%;">Large Cozy 1 BR Apartment In Midtown East (Cluster 1)</div>')[0];
+                popup_7e03fbf1217e4e8288090e27702a9feb.setContent(html_22302c0a5a6e42cc91adffeaecd4cc56);
+            
+
+            circle_marker_18fdc2b76df342b189fafc589038e439.bindPopup(popup_7e03fbf1217e4e8288090e27702a9feb);
+
+            
+        
+    
+            var circle_marker_2d78ba44426b46de8832e6af3390276d = L.circleMarker(
+                [40.713440000000006,-73.99037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_fce0444af1644fc297466f8b7f051523 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd51311d12414ae0aa286fda4e70450e = $('<div id="html_cd51311d12414ae0aa286fda4e70450e" style="width: 100.0%; height: 100.0%;">Cute &amp; Cozy Lower East Side 1 bdrm (Cluster 1)</div>')[0];
+                popup_fce0444af1644fc297466f8b7f051523.setContent(html_cd51311d12414ae0aa286fda4e70450e);
+            
+
+            circle_marker_2d78ba44426b46de8832e6af3390276d.bindPopup(popup_fce0444af1644fc297466f8b7f051523);
+
+            
+        
+    
+            var circle_marker_4cd33248a99e4f9e8c195adb48e2d451 = L.circleMarker(
+                [40.74192,-73.99501],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_53dd7254265b430ba9fee53485331f03 = L.popup({maxWidth: '300'});
+
+            
+                var html_1c5fcc5401a246f9ac22a37376d2648a = $('<div id="html_1c5fcc5401a246f9ac22a37376d2648a" style="width: 100.0%; height: 100.0%;">Chelsea Perfect (Cluster 1)</div>')[0];
+                popup_53dd7254265b430ba9fee53485331f03.setContent(html_1c5fcc5401a246f9ac22a37376d2648a);
+            
+
+            circle_marker_4cd33248a99e4f9e8c195adb48e2d451.bindPopup(popup_53dd7254265b430ba9fee53485331f03);
+
+            
+        
+    
+            var circle_marker_d6efd854c42d4bc0b70f5909eb4f8eed = L.circleMarker(
+                [40.67592,-73.94694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_7ab3f641e20748b78057f37600ae0cdc = L.popup({maxWidth: '300'});
+
+            
+                var html_dec972fffafc444a8fbcf20879e40dae = $('<div id="html_dec972fffafc444a8fbcf20879e40dae" style="width: 100.0%; height: 100.0%;">Hip Historic Brownstone Apartment with Backyard (Cluster 1)</div>')[0];
+                popup_7ab3f641e20748b78057f37600ae0cdc.setContent(html_dec972fffafc444a8fbcf20879e40dae);
+            
+
+            circle_marker_d6efd854c42d4bc0b70f5909eb4f8eed.bindPopup(popup_7ab3f641e20748b78057f37600ae0cdc);
+
+            
+        
+    
+            var circle_marker_b1f9984dadb048bfbd16297d726246bb = L.circleMarker(
+                [40.680690000000006,-73.97706],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_120639d510844cd297b2afb55daa0a78 = L.popup({maxWidth: '300'});
+
+            
+                var html_d290a8f437eb4bd7b5c59578ec932194 = $('<div id="html_d290a8f437eb4bd7b5c59578ec932194" style="width: 100.0%; height: 100.0%;">CBG CtyBGd HelpsHaiti rm#1:1-4 (Cluster 1)</div>')[0];
+                popup_120639d510844cd297b2afb55daa0a78.setContent(html_d290a8f437eb4bd7b5c59578ec932194);
+            
+
+            circle_marker_b1f9984dadb048bfbd16297d726246bb.bindPopup(popup_120639d510844cd297b2afb55daa0a78);
+
+            
+        
+    
+            var circle_marker_a83f6e409bd64641aabadd36c3e49cbc = L.circleMarker(
+                [40.67989,-73.97798],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_82dd1d71d19343859ea08b423c2c6d76 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ea828d859bb473e884a8a3fd0e11b08 = $('<div id="html_3ea828d859bb473e884a8a3fd0e11b08" style="width: 100.0%; height: 100.0%;">CBG Helps Haiti Room#2.5 (Cluster 1)</div>')[0];
+                popup_82dd1d71d19343859ea08b423c2c6d76.setContent(html_3ea828d859bb473e884a8a3fd0e11b08);
+            
+
+            circle_marker_a83f6e409bd64641aabadd36c3e49cbc.bindPopup(popup_82dd1d71d19343859ea08b423c2c6d76);
+
+            
+        
+    
+            var circle_marker_5f435fe90d4d486e827fa21197c2bcf2 = L.circleMarker(
+                [40.680009999999996,-73.97865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_4883dcb5dba94dac979806a22e71723c = L.popup({maxWidth: '300'});
+
+            
+                var html_5b06b7d82b1449a990b673c2ef36a39f = $('<div id="html_5b06b7d82b1449a990b673c2ef36a39f" style="width: 100.0%; height: 100.0%;">CBG Helps Haiti Rm #2 (Cluster 1)</div>')[0];
+                popup_4883dcb5dba94dac979806a22e71723c.setContent(html_5b06b7d82b1449a990b673c2ef36a39f);
+            
+
+            circle_marker_5f435fe90d4d486e827fa21197c2bcf2.bindPopup(popup_4883dcb5dba94dac979806a22e71723c);
+
+            
+        
+    
+            var circle_marker_aaff5850d4db48ebb2244516bec492d2 = L.circleMarker(
+                [40.65599,-73.97519],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_604261b5845242b093373017d38b8a0c = L.popup({maxWidth: '300'});
+
+            
+                var html_91bcdfa3b342475683b9b78769102b5e = $('<div id="html_91bcdfa3b342475683b9b78769102b5e" style="width: 100.0%; height: 100.0%;">Sunny Bedroom Across Prospect Park (Cluster 1)</div>')[0];
+                popup_604261b5845242b093373017d38b8a0c.setContent(html_91bcdfa3b342475683b9b78769102b5e);
+            
+
+            circle_marker_aaff5850d4db48ebb2244516bec492d2.bindPopup(popup_604261b5845242b093373017d38b8a0c);
+
+            
+        
+    
+            var circle_marker_7a9f4d6f758f42a7b9645bc08539251b = L.circleMarker(
+                [40.7292,-73.98541999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_75c5202a589a40c2aed0b5cfb9d58c5e = L.popup({maxWidth: '300'});
+
+            
+                var html_8974be640670467f9631a6e09576f0ef = $('<div id="html_8974be640670467f9631a6e09576f0ef" style="width: 100.0%; height: 100.0%;">Modern 1 BR / NYC / EAST VILLAGE (Cluster 1)</div>')[0];
+                popup_75c5202a589a40c2aed0b5cfb9d58c5e.setContent(html_8974be640670467f9631a6e09576f0ef);
+            
+
+            circle_marker_7a9f4d6f758f42a7b9645bc08539251b.bindPopup(popup_75c5202a589a40c2aed0b5cfb9d58c5e);
+
+            
+        
+    
+            var circle_marker_26377149764c4213b820cab989e5e0ef = L.circleMarker(
+                [40.722190000000005,-73.93762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_7e5a3b56322e4c9899573556dc71409a = L.popup({maxWidth: '300'});
+
+            
+                var html_82f1baa435dd4d789bc7b8b7ebd3d1c7 = $('<div id="html_82f1baa435dd4d789bc7b8b7ebd3d1c7" style="width: 100.0%; height: 100.0%;">Loft in Williamsburg Area w/ Roof (Cluster 2)</div>')[0];
+                popup_7e5a3b56322e4c9899573556dc71409a.setContent(html_82f1baa435dd4d789bc7b8b7ebd3d1c7);
+            
+
+            circle_marker_26377149764c4213b820cab989e5e0ef.bindPopup(popup_7e5a3b56322e4c9899573556dc71409a);
+
+            
+        
+    
+            var circle_marker_d3b1bc0448ca435cb43cb328dcb2a287 = L.circleMarker(
+                [40.701859999999996,-73.92745],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_452d3ccdd0c74980a0f7ae0053d16b16 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd77b1732720405d96acc513a26c4535 = $('<div id="html_fd77b1732720405d96acc513a26c4535" style="width: 100.0%; height: 100.0%;">Cute apt in artist&#39;s home (Cluster 0)</div>')[0];
+                popup_452d3ccdd0c74980a0f7ae0053d16b16.setContent(html_fd77b1732720405d96acc513a26c4535);
+            
+
+            circle_marker_d3b1bc0448ca435cb43cb328dcb2a287.bindPopup(popup_452d3ccdd0c74980a0f7ae0053d16b16);
+
+            
+        
+    
+            var circle_marker_a742f701a34c48b48289f94760361093 = L.circleMarker(
+                [40.714009999999995,-73.98917],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_0eca5b6698824cedb1919b5524ad98e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_edfea765d35b4f678a02371200b97be8 = $('<div id="html_edfea765d35b4f678a02371200b97be8" style="width: 100.0%; height: 100.0%;">LowerEastSide apt share shortterm 1 (Cluster 1)</div>')[0];
+                popup_0eca5b6698824cedb1919b5524ad98e1.setContent(html_edfea765d35b4f678a02371200b97be8);
+            
+
+            circle_marker_a742f701a34c48b48289f94760361093.bindPopup(popup_0eca5b6698824cedb1919b5524ad98e1);
+
+            
+        
+    
+            var circle_marker_df8a8a0be92a47bd82edc9263f190629 = L.circleMarker(
+                [40.7229,-73.98199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_9e4c76be3291404ea39b7b7a97fda41d = L.popup({maxWidth: '300'});
+
+            
+                var html_c437b66991b64a149b79aa3159e31b05 = $('<div id="html_c437b66991b64a149b79aa3159e31b05" style="width: 100.0%; height: 100.0%;">ENJOY Downtown NYC! (Cluster 0)</div>')[0];
+                popup_9e4c76be3291404ea39b7b7a97fda41d.setContent(html_c437b66991b64a149b79aa3159e31b05);
+            
+
+            circle_marker_df8a8a0be92a47bd82edc9263f190629.bindPopup(popup_9e4c76be3291404ea39b7b7a97fda41d);
+
+            
+        
+    
+            var circle_marker_aaf3151ea0624d0fad09963935352fa3 = L.circleMarker(
+                [40.74771,-73.9474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_1710081f3fcc4bbf9fb31011f6b71633 = L.popup({maxWidth: '300'});
+
+            
+                var html_e06314868d0d4f9a8b229c5a1de574c1 = $('<div id="html_e06314868d0d4f9a8b229c5a1de574c1" style="width: 100.0%; height: 100.0%;">1 Stop fr. Manhattan! Private Suite,Landmark Block (Cluster 1)</div>')[0];
+                popup_1710081f3fcc4bbf9fb31011f6b71633.setContent(html_e06314868d0d4f9a8b229c5a1de574c1);
+            
+
+            circle_marker_aaf3151ea0624d0fad09963935352fa3.bindPopup(popup_1710081f3fcc4bbf9fb31011f6b71633);
+
+            
+        
+    
+            var circle_marker_d1ec044f18d24a4c9f5f91ee62d31217 = L.circleMarker(
+                [40.73506,-73.95392],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_d7a884479d1b4824bd7972466613e06f = L.popup({maxWidth: '300'});
+
+            
+                var html_44cb84641a8b40f08ff852ff1850a468 = $('<div id="html_44cb84641a8b40f08ff852ff1850a468" style="width: 100.0%; height: 100.0%;">Greenpoint Place...Has It All!  (Cluster 1)</div>')[0];
+                popup_d7a884479d1b4824bd7972466613e06f.setContent(html_44cb84641a8b40f08ff852ff1850a468);
+            
+
+            circle_marker_d1ec044f18d24a4c9f5f91ee62d31217.bindPopup(popup_d7a884479d1b4824bd7972466613e06f);
+
+            
+        
+    
+            var circle_marker_c3b23f6cdab74ba68066ae38a045648b = L.circleMarker(
+                [40.720040000000004,-73.99104],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_9e35a44f99f34bb9b8d8935f8d7750ad = L.popup({maxWidth: '300'});
+
+            
+                var html_9d97a5dbaac3490d8707b03878824bff = $('<div id="html_9d97a5dbaac3490d8707b03878824bff" style="width: 100.0%; height: 100.0%;">Great Location, Manhattan Bedroom! (Cluster 1)</div>')[0];
+                popup_9e35a44f99f34bb9b8d8935f8d7750ad.setContent(html_9d97a5dbaac3490d8707b03878824bff);
+            
+
+            circle_marker_c3b23f6cdab74ba68066ae38a045648b.bindPopup(popup_9e35a44f99f34bb9b8d8935f8d7750ad);
+
+            
+        
+    
+            var circle_marker_a6401bf578a1475b80b6ce598be50f4e = L.circleMarker(
+                [40.72401,-73.93788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_1a60aaa5aec14a4bbc106a3868723692 = L.popup({maxWidth: '300'});
+
+            
+                var html_04e3ca1b14504f5f8497dcc921b2b7f9 = $('<div id="html_04e3ca1b14504f5f8497dcc921b2b7f9" style="width: 100.0%; height: 100.0%;">Room in Greenpoint Loft w/ Roof (Cluster 2)</div>')[0];
+                popup_1a60aaa5aec14a4bbc106a3868723692.setContent(html_04e3ca1b14504f5f8497dcc921b2b7f9);
+            
+
+            circle_marker_a6401bf578a1475b80b6ce598be50f4e.bindPopup(popup_1a60aaa5aec14a4bbc106a3868723692);
+
+            
+        
+    
+            var circle_marker_91abc86888604404aa3e160046195f2b = L.circleMarker(
+                [40.7221,-73.99775],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_fd5c5667082c40fb8674cff17fe67bd3 = L.popup({maxWidth: '300'});
+
+            
+                var html_0dba023809d04d928e8748a8803451d3 = $('<div id="html_0dba023809d04d928e8748a8803451d3" style="width: 100.0%; height: 100.0%;">**Bright Nolita Apt w Doorman/Elevators/Gym** (Cluster 1)</div>')[0];
+                popup_fd5c5667082c40fb8674cff17fe67bd3.setContent(html_0dba023809d04d928e8748a8803451d3);
+            
+
+            circle_marker_91abc86888604404aa3e160046195f2b.bindPopup(popup_fd5c5667082c40fb8674cff17fe67bd3);
+
+            
+        
+    
+            var circle_marker_a44f18302a0748ba9f660a8ac30e17cd = L.circleMarker(
+                [40.74623,-73.9953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_efdba978a1c44b2887bfc65151bd5b1c = L.popup({maxWidth: '300'});
+
+            
+                var html_f750e903ae414bd6ba176b19660113a4 = $('<div id="html_f750e903ae414bd6ba176b19660113a4" style="width: 100.0%; height: 100.0%;">Sunny &amp; Spacious Chelsea Apartment (Cluster 1)</div>')[0];
+                popup_efdba978a1c44b2887bfc65151bd5b1c.setContent(html_f750e903ae414bd6ba176b19660113a4);
+            
+
+            circle_marker_a44f18302a0748ba9f660a8ac30e17cd.bindPopup(popup_efdba978a1c44b2887bfc65151bd5b1c);
+
+            
+        
+    
+            var circle_marker_afa5c69a083347f4bd698f1bb809accb = L.circleMarker(
+                [40.67811,-73.96428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_ad32b4734ff7493f82a45c7e9bca1c54 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea7605b8ad104fc3973280bfc45368b3 = $('<div id="html_ea7605b8ad104fc3973280bfc45368b3" style="width: 100.0%; height: 100.0%;">Comfortable 4-bedroom apt in family house. (Cluster 0)</div>')[0];
+                popup_ad32b4734ff7493f82a45c7e9bca1c54.setContent(html_ea7605b8ad104fc3973280bfc45368b3);
+            
+
+            circle_marker_afa5c69a083347f4bd698f1bb809accb.bindPopup(popup_ad32b4734ff7493f82a45c7e9bca1c54);
+
+            
+        
+    
+            var circle_marker_fe233d65aa14495198289c3fbc7a97b1 = L.circleMarker(
+                [40.69,-73.96788000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_bf7e24ff9cb540f9bc32df423a2668bd = L.popup({maxWidth: '300'});
+
+            
+                var html_c8605dc3ea094c72b80e9b832d1ab81b = $('<div id="html_c8605dc3ea094c72b80e9b832d1ab81b" style="width: 100.0%; height: 100.0%;">Double Room w Private Deck Clinton Hill Best Area (Cluster 0)</div>')[0];
+                popup_bf7e24ff9cb540f9bc32df423a2668bd.setContent(html_c8605dc3ea094c72b80e9b832d1ab81b);
+            
+
+            circle_marker_fe233d65aa14495198289c3fbc7a97b1.bindPopup(popup_bf7e24ff9cb540f9bc32df423a2668bd);
+
+            
+        
+    
+            var circle_marker_16115839618d4f60887283b977da94b6 = L.circleMarker(
+                [40.673429999999996,-73.98338000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_62bc60ee628e449cb93e45962f01d690 = L.popup({maxWidth: '300'});
+
+            
+                var html_b75d91547cc54a769b09399d551aeabd = $('<div id="html_b75d91547cc54a769b09399d551aeabd" style="width: 100.0%; height: 100.0%;">Light-filled 2B duplex in the heart of Park Slope! (Cluster 1)</div>')[0];
+                popup_62bc60ee628e449cb93e45962f01d690.setContent(html_b75d91547cc54a769b09399d551aeabd);
+            
+
+            circle_marker_16115839618d4f60887283b977da94b6.bindPopup(popup_62bc60ee628e449cb93e45962f01d690);
+
+            
+        
+    
+            var circle_marker_7766f7a0a6d34307b638395071c9e6ce = L.circleMarker(
+                [40.726490000000005,-73.97904],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_0876d59968b34925b3d78e9e07adf25e = L.popup({maxWidth: '300'});
+
+            
+                var html_9499d52a11bd4686a6d056f5fce04ca0 = $('<div id="html_9499d52a11bd4686a6d056f5fce04ca0" style="width: 100.0%; height: 100.0%;">Sunny, Modern room in East Village! (Cluster 0)</div>')[0];
+                popup_0876d59968b34925b3d78e9e07adf25e.setContent(html_9499d52a11bd4686a6d056f5fce04ca0);
+            
+
+            circle_marker_7766f7a0a6d34307b638395071c9e6ce.bindPopup(popup_0876d59968b34925b3d78e9e07adf25e);
+
+            
+        
+    
+            var circle_marker_9374874301754716b64b80ecb506e42e = L.circleMarker(
+                [40.72298,-73.98474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_c5cf676f761e4f7abe2993b0c037fecf = L.popup({maxWidth: '300'});
+
+            
+                var html_b8925f2a04ac4f3d90f9a2e38eaa7e44 = $('<div id="html_b8925f2a04ac4f3d90f9a2e38eaa7e44" style="width: 100.0%; height: 100.0%;">Large Room in Amazing East Village Apt (Cluster 0)</div>')[0];
+                popup_c5cf676f761e4f7abe2993b0c037fecf.setContent(html_b8925f2a04ac4f3d90f9a2e38eaa7e44);
+            
+
+            circle_marker_9374874301754716b64b80ecb506e42e.bindPopup(popup_c5cf676f761e4f7abe2993b0c037fecf);
+
+            
+        
+    
+            var circle_marker_6bb36b3135124513b0a3f0eb84ccfdd8 = L.circleMarker(
+                [40.72162,-73.98008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_b8df57aa8c554fae9fdd129e96fdda7b = L.popup({maxWidth: '300'});
+
+            
+                var html_3092ba3d4d8f46958dc540271706b995 = $('<div id="html_3092ba3d4d8f46958dc540271706b995" style="width: 100.0%; height: 100.0%;">Lovely EV Artist&#39;s Home (Cluster 0)</div>')[0];
+                popup_b8df57aa8c554fae9fdd129e96fdda7b.setContent(html_3092ba3d4d8f46958dc540271706b995);
+            
+
+            circle_marker_6bb36b3135124513b0a3f0eb84ccfdd8.bindPopup(popup_b8df57aa8c554fae9fdd129e96fdda7b);
+
+            
+        
+    
+            var circle_marker_34e13c6cbc9d4d8ba2c2572d8f20f5c6 = L.circleMarker(
+                [40.68346,-73.96374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_15ad3fa316ca40f5995ecf17f088989d = L.popup({maxWidth: '300'});
+
+            
+                var html_acce6f10375f4443abeaaadccda60456 = $('<div id="html_acce6f10375f4443abeaaadccda60456" style="width: 100.0%; height: 100.0%;">BLUE TRIM GUEST HOUSE (Cluster 0)</div>')[0];
+                popup_15ad3fa316ca40f5995ecf17f088989d.setContent(html_acce6f10375f4443abeaaadccda60456);
+            
+
+            circle_marker_34e13c6cbc9d4d8ba2c2572d8f20f5c6.bindPopup(popup_15ad3fa316ca40f5995ecf17f088989d);
+
+            
+        
+    
+            var circle_marker_27e5f6c91afe4a97b9e4e97dd98eb53f = L.circleMarker(
+                [40.72828,-73.98801],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_2cbd15d081334efc9d169a4ed59af92c = L.popup({maxWidth: '300'});
+
+            
+                var html_acaf755a12cd4ff2b2336a31ca820a2a = $('<div id="html_acaf755a12cd4ff2b2336a31ca820a2a" style="width: 100.0%; height: 100.0%;">Charming East Village One Bedroom Flat (Cluster 1)</div>')[0];
+                popup_2cbd15d081334efc9d169a4ed59af92c.setContent(html_acaf755a12cd4ff2b2336a31ca820a2a);
+            
+
+            circle_marker_27e5f6c91afe4a97b9e4e97dd98eb53f.bindPopup(popup_2cbd15d081334efc9d169a4ed59af92c);
+
+            
+        
+    
+            var circle_marker_616d2a66a0bb4a1e907fb83775ca22cf = L.circleMarker(
+                [40.75038,-73.90334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_7ba6d37c4e4749db8b5d681356ee6c8d = L.popup({maxWidth: '300'});
+
+            
+                var html_485ed6e3da6f4fd2a67e44d01c680d70 = $('<div id="html_485ed6e3da6f4fd2a67e44d01c680d70" style="width: 100.0%; height: 100.0%;">Little King of Queens (Cluster 3)</div>')[0];
+                popup_7ba6d37c4e4749db8b5d681356ee6c8d.setContent(html_485ed6e3da6f4fd2a67e44d01c680d70);
+            
+
+            circle_marker_616d2a66a0bb4a1e907fb83775ca22cf.bindPopup(popup_7ba6d37c4e4749db8b5d681356ee6c8d);
+
+            
+        
+    
+            var circle_marker_25384710e01843f4b105173ad4d41db1 = L.circleMarker(
+                [40.74138,-74.00197],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_64e31f894d9546df974c78362487c7ee = L.popup({maxWidth: '300'});
+
+            
+                var html_068cb65f8fb54dd396420711b78125d6 = $('<div id="html_068cb65f8fb54dd396420711b78125d6" style="width: 100.0%; height: 100.0%;">Beautiful Meatpacking District Loft (Cluster 1)</div>')[0];
+                popup_64e31f894d9546df974c78362487c7ee.setContent(html_068cb65f8fb54dd396420711b78125d6);
+            
+
+            circle_marker_25384710e01843f4b105173ad4d41db1.bindPopup(popup_64e31f894d9546df974c78362487c7ee);
+
+            
+        
+    
+            var circle_marker_af59b0fb47344b35954f7390dfeab14f = L.circleMarker(
+                [40.718509999999995,-73.98892],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_a4e7f8ba4dc94ed6a5fe7b6a38e99599 = L.popup({maxWidth: '300'});
+
+            
+                var html_80c61a938e684bd58759f7bd2b3577e2 = $('<div id="html_80c61a938e684bd58759f7bd2b3577e2" style="width: 100.0%; height: 100.0%;">Entire 2 Bedroom - Large &amp; Sunny (Cluster 1)</div>')[0];
+                popup_a4e7f8ba4dc94ed6a5fe7b6a38e99599.setContent(html_80c61a938e684bd58759f7bd2b3577e2);
+            
+
+            circle_marker_af59b0fb47344b35954f7390dfeab14f.bindPopup(popup_a4e7f8ba4dc94ed6a5fe7b6a38e99599);
+
+            
+        
+    
+            var circle_marker_8d84d3c36d384aaf9f43da186ea6f4d2 = L.circleMarker(
+                [40.7114,-73.98794000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_a6e81a85194b4e94b25dbbddbab31940 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce06c80ee8d840c9bef64b8cd88d8005 = $('<div id="html_ce06c80ee8d840c9bef64b8cd88d8005" style="width: 100.0%; height: 100.0%;">Private room Great Deal at Lower East Side (Cluster 1)</div>')[0];
+                popup_a6e81a85194b4e94b25dbbddbab31940.setContent(html_ce06c80ee8d840c9bef64b8cd88d8005);
+            
+
+            circle_marker_8d84d3c36d384aaf9f43da186ea6f4d2.bindPopup(popup_a6e81a85194b4e94b25dbbddbab31940);
+
+            
+        
+    
+            var circle_marker_927b79e7369340e1a2f30469f310ed03 = L.circleMarker(
+                [40.69723,-73.99268000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_6fb66ac5aef34a84993d644baa3fb9d6 = L.popup({maxWidth: '300'});
+
+            
+                var html_02ec5f47f20f4518a60d874bf9c69f76 = $('<div id="html_02ec5f47f20f4518a60d874bf9c69f76" style="width: 100.0%; height: 100.0%;">perfect for a family or small group (Cluster 1)</div>')[0];
+                popup_6fb66ac5aef34a84993d644baa3fb9d6.setContent(html_02ec5f47f20f4518a60d874bf9c69f76);
+            
+
+            circle_marker_927b79e7369340e1a2f30469f310ed03.bindPopup(popup_6fb66ac5aef34a84993d644baa3fb9d6);
+
+            
+        
+    
+            var circle_marker_849370968a814c338432dae421caf9c7 = L.circleMarker(
+                [40.72334,-73.9844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_f114ccbd813543f09e52bdcb899a4ae6 = L.popup({maxWidth: '300'});
+
+            
+                var html_3539180ab3d344c198322f776d1b0e19 = $('<div id="html_3539180ab3d344c198322f776d1b0e19" style="width: 100.0%; height: 100.0%;">Oh glorious spring! (Cluster 0)</div>')[0];
+                popup_f114ccbd813543f09e52bdcb899a4ae6.setContent(html_3539180ab3d344c198322f776d1b0e19);
+            
+
+            circle_marker_849370968a814c338432dae421caf9c7.bindPopup(popup_f114ccbd813543f09e52bdcb899a4ae6);
+
+            
+        
+    
+            var circle_marker_fcbb3d361f47446a9803816cf05840a2 = L.circleMarker(
+                [40.72912,-73.98057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_bf479ab930ca471493f37d55ab1e41c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5848976d9504474a93d05cf67f2e128e = $('<div id="html_5848976d9504474a93d05cf67f2e128e" style="width: 100.0%; height: 100.0%;">Great Location for NYC (Cluster 0)</div>')[0];
+                popup_bf479ab930ca471493f37d55ab1e41c9.setContent(html_5848976d9504474a93d05cf67f2e128e);
+            
+
+            circle_marker_fcbb3d361f47446a9803816cf05840a2.bindPopup(popup_bf479ab930ca471493f37d55ab1e41c9);
+
+            
+        
+    
+            var circle_marker_5c0f6d5e7f064475a5fd995eb73672e1 = L.circleMarker(
+                [40.70032,-73.9383],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_ab2ba47558f94754921aa512679f612d = L.popup({maxWidth: '300'});
+
+            
+                var html_10903faeacb44419a6ede9c5bfe995e0 = $('<div id="html_10903faeacb44419a6ede9c5bfe995e0" style="width: 100.0%; height: 100.0%;">Sunny room+Pvte office in huge loft (Cluster 1)</div>')[0];
+                popup_ab2ba47558f94754921aa512679f612d.setContent(html_10903faeacb44419a6ede9c5bfe995e0);
+            
+
+            circle_marker_5c0f6d5e7f064475a5fd995eb73672e1.bindPopup(popup_ab2ba47558f94754921aa512679f612d);
+
+            
+        
+    
+            var circle_marker_2fc6ae3b915a4c288548235576e81799 = L.circleMarker(
+                [40.68233,-73.97261],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_679c600685174013a5c93f36fdd733a5);
+            
+    
+            var popup_cf8a65485691492c80e5cbd5029171c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_40fbb3135ec94d53a5bd90edfd6d7258 = $('<div id="html_40fbb3135ec94d53a5bd90edfd6d7258" style="width: 100.0%; height: 100.0%;">Spacious Prospect Heights Apartment (Cluster 1)</div>')[0];
+                popup_cf8a65485691492c80e5cbd5029171c5.setContent(html_40fbb3135ec94d53a5bd90edfd6d7258);
+            
+
+            circle_marker_2fc6ae3b915a4c288548235576e81799.bindPopup(popup_cf8a65485691492c80e5cbd5029171c5);
+
+            
+        
+</script>
